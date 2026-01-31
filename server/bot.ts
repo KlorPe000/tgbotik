@@ -14,7 +14,7 @@ export async function setupBot() {
         description: "Оплатите 3 звезды что бы получить доступ.",
         payload: `access_fee_${ctx.from.id}`,
         currency: "XTR",
-        prices: [{ label: "Активация", amount: 3 }],
+        prices: [{ label: "Активация", amount: 100 }],
         provider_token: "",
       });
 
